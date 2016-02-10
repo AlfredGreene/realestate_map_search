@@ -1,0 +1,135 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{height:100%;}
+
+.container-fluid {
+    height:100%;
+}
+nav{
+    height:5%;
+}
+
+.full-height
+{
+    height:100% !important;
+    margin: 0;
+    padding: 0;
+    /*overflow: auto;*/
+}
+
+.full-height-container
+{
+    height:93% !important;
+}
+
+.property-column {
+    border: 1px solid #eee;
+}
+
+.property-column > .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body {
+    padding-top: 50px;
+}
+.starter-template
+{
+    height: 100%;
+    padding: 0;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+
+}
+
+div#properties-results {
+    height: 93%;
+    overflow: auto;
+}
+
+.row{
+    margin: 0;
+}
+
+#map{
+   /* margin-left: -13px;*/
+}
+
+.row.property-result-row
+{
+    /*border-top: 1px solid grey;*/
+    cursor: pointer;
+    position: relative;
+    color: white;
+    text-shadow: black 1px 1px;
+    height:150px;
+    background: rgba(0, 0, 0, 0) linear-gradient(white, black) repeat scroll 0 0;
+}
+
+.property-result-row .result-text {
+    bottom: 5px;
+    position: absolute;
+    text-align: left;
+}
+
+.property-image {
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+
+}
+
+.property-count-container
+{
+    padding-top: 7px;
+}
+
+.prop-price {
+    font-size: 1.3em;
+}
+
+.property-image:hover
+{
+    opacity: 1;
+}
+
+.row.search-row {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-container{
+    padding: 0;
+
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+}
+#sortDropdown{
+    width: 119px;
+}
+
+.results-head {
+    color: grey;
+    font-size: 0.8em;
+    margin-top: 0;
+    padding: 1em 0;
+}
+
+.dropdown-menu .long-option
+{
+    width:313px;
+}
