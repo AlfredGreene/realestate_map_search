@@ -16,7 +16,7 @@ $site_name='<Your Site name>';
 $site_url='<Your Site url>';
 $site_mapsAPIKey='<Your Google Maps API KEY>';
 ```
-And Configure your DB (see ```test\dbSetUp.phps```  for the default DB column name)
+And Configure your DB (see ```test\dbSetUp.php```  for the default DB column name)
 
 ```
 $site_db_array=['dsn'=>'<Your DB DSN>','u'=>'<DB user>','p'=>'<DB Password>'] ;
